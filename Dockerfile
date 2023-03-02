@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 #Declare vars to be used in the app build
 #ARG POSTGRES_NAME
-#ENV POSTGRES_NAME=${POSTGRES_NAME}
+#gitENV POSTGRES_NAME=${POSTGRES_NAME}
 
 #Copy app files
 COPY . .

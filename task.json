@@ -1,0 +1,43 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:ap-southeast-1:017697353720:task-definition/status_page_task:13",
+    "containerDefinitions": [
+        {
+            "name": "status_page_container",
+            "image": "017697353720.dkr.ecr.ap-southeast-1.amazonaws.com/status-page-baron:3",
+            "cpu": 1,
+            "memory": 512,
+            "portMappings": [
+                {
+                    "containerPort": 8000,
+                    "hostPort": 8000,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": []
+        }
+    ],
+    "family": "status_page_task",
+    "taskRoleArn": "arn:aws:iam::017697353720:role/ecsTaskExecutionRole",
+    "revision": 13,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EXTERNAL",
+        "EC2"
+    ],
+    "registeredAt": "2023-03-07T16:45:07.523Z",
+    "registeredBy": "arn:aws:iam::017697353720:user/ron.taktuk",
+    "tags": []
+}

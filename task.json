@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "status_page_container",
-            "image": "017697353720.dkr.ecr.ap-southeast-1.amazonaws.com/status-page-baron:3",
+            "image": "017697353720.dkr.ecr.ap-southeast-1.amazonaws.com/status-page-baron:$IMAGE_TAG",
             "cpu": 1,
             "memory": 512,
             "portMappings": [

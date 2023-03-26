@@ -15,7 +15,7 @@ https://drive.google.com/file/d/1aI-hi93sEEN7pc17Rkc8Q0TA_d4RAmW2/view?usp=shari
 ![image](https://user-images.githubusercontent.com/123241700/227783677-9f730799-942c-4b7d-bedc-a50014892173.png)
 
 # Documentation
-file:///C:/Users/HP/Downloads/_Documentation%20(1).pdf
+https://docs.google.com/document/d/1bxv1Z1VYYpqNWJTg6z_Xl863jzzTE3YGA3HWqm89XYI/edit?usp=sharing
 
 # CI/CD Diagram
 ![image](https://user-images.githubusercontent.com/123241700/227784194-6df6c0b3-b106-4c18-8545-aceda73a0558.png)
